@@ -1,0 +1,90 @@
+/* reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* base typography */
+body {
+  font-family: Arial, sans-serif;
+  color: #111;
+  background: #fff;
+  line-height: 1.5;
+  padding: 1rem;
+}
+a { color: #111; text-decoration: none; }
+
+/* HERO / COVER */
+.hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.hero .logo {
+  width: 180px;      /* adjust as needed */
+  display: block;
+  margin: 0 auto 1rem;
+}
+.hero h1 {
+  font-family: "Times New Roman", serif;
+  font-size: 2.5rem;
+  letter-spacing: 4px;
+  margin-bottom: 0.2rem;
+}
+.hero .subtitle {
+  font-family: Georgia, serif;
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #555;
+}
+
+/* SECTION LAYOUT */
+.section {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+.section h2 {
+  font-family: "Times New Roman", serif;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #111;
+  padding-bottom: 0.3rem;
+  letter-spacing: 1px;
+}
+.section p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* OFFICE LIST */
+.office-list {
+  list-style-position: inside;
+  margin-top: 1rem;
+}
+.office-list li {
+  margin-bottom: 0.5rem;
+}
+
+/* PDF EMBED CONTAINER */
+.pdf-container {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+}
+
+/* DOWNLOAD BUTTON */
+.download {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #111;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+.download:hover {
+  background: #f0f0f0;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  margin: 3rem 0 1rem;
+  font-size: 0.9rem;
+  color: #777;
+}
